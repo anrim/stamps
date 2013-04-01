@@ -1,0 +1,27 @@
+{
+  "name": "stamps",
+  "version": "0.0.1",
+  "description": "Node.js client for with stamps.com's API used to generate postage labels.",
+  "keywords": [
+    "stamps.com",
+    "postage",
+    "shipping",
+    "label"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": "https://github.com/anrim/stamps.git",
+  "author": "anrim",
+  "license": "MIT",
+  "dependencies": {
+    "soap": "https://github.com/anrim/node-soap/tarball/master",
+    "async": "~0.1.22",
+    "vow": "~0.3.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should.js": "*"
+  }
+}
